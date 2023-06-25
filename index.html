@@ -18,13 +18,15 @@
     .guri {
         width: 100%;
     }
-    .guri {
-        width: 80%;
-    }
+
+    /* .guri {
+        width: 80%; 
+    } */
 
     .h8 {
-        height: 400px;
+        height: 500px;
     }
+
     /* #carouselExampleAutoplaying{
         width: 0;
     } */
@@ -34,16 +36,35 @@
     /* .guri  div{
         width:0px;
     } */
-    .hi{
+    .hi {
         width: 100%;
     }
-   
+
     .objectfit {
         object-fit: cover;
         object-position: center;
         width: 100%;
     }
 
+    .obj {
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .right {
+        bottom: 0;
+        top: auto;
+        color: rgba(51, 42, 42, 0.91);
+    }
+
+    .ht {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    /* .fl {
+        float: left;
+    } */
 </style>
 
 <body>
@@ -69,14 +90,9 @@
                             Services
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Wedding</a></li>
-                            <li><a class="dropdown-item" href="#">Pre-Wedding</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                            <li><a class="dropdown-item" href="/wedding.html">Wedding Photography</a></li>
+                            <li><a class="dropdown-item" href="/product.html">Product Photography</a></li>
+                           </ul>
                     <li class="nav-item">
                         <a class="nav-link" href="/contact.html">Contact Us</a>
                     </li>
@@ -90,7 +106,7 @@
     </nav>
     <section>
 
-        <div class=" guri">
+        <div class="guri">
             <!-- <div class="d-flex justify-content-enter align-items-center"> -->
             <div id="carouselExampleAutoplaying" class="carousel slide h8 hi" data-bs-ride="carousel">
                 <div class="carousel-inner h8">
@@ -106,7 +122,8 @@
                             class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item h8" data-bs-interval="2000">
-                        <img class="objectfit h8" src="https://img-c.udemycdn.com/course/750x422/557386_009f_5.jpg"
+                        <img class="objectfit h8"
+                            src="https://www.southernliving.com/thmb/ahlbtRPnnyJkrPd4RwqYvlWMlew=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kn5a6000-2000-f84aad41339c421d824006da2caa7ea1.jpg"
                             class="d-block w-100" alt="..." />
                     </div>
                 </div>
@@ -123,7 +140,48 @@
             </div>
         </div>
     </section>
-
+    <!-- <section>
+        <div class="guri h8" >
+            <img class="guri h8 obj"
+                src="https://assets.brideandblossom.com/wp-content/uploads/2021/06/21221419/Jamie-and-Jasper-Wedding-Bride-and-Groom-Kissing-Gurneys-Montauk-Pat-Furey-Photography20191230_0840.jpg" />
+        </div>
+    </section> -->
+    <section>
+        <div>
+            <div class="guri h8 obj">
+                <img class="obj guri h8"
+                    src="https://www.nownalways.com.au/wp-content/uploads/2022/12/n0025-Selection-HH-web-0098.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block right">
+                    <h2>Emotions and Memories</h2>
+                    <p>The camera lens captures more than an image; it captures the depth of our connection.</p>
+                </div>
+            </div>
+    </section>
+    <!-- <section>
+            <div class="row g-0 bg-body-secondary position-relative fl">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                    <img src="https://www.craydenweddingphotography.co.uk/wp-content/uploads/2023/01/sean-laura-social-media-files-789-of-1067.jpg"
+                        class="w-100" alt="..." />
+                    </div>
+                <div class="p-md-4 ps-md-2">
+                    <h2 class="mt-0 ht">Her laugh</h2>
+                    <p>Her laughter dances in the air, a symphony of joy sparked by the sight of him. A snapshot of
+                        laughter, a testament to the unbreakable bond they share.</p>
+                </div>
+            </div>
+    </section> -->
+    <div class="container my-4">
+        <div class="row featurette d-flex  justify-content-center  align-items-center">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Her laugh <span class="text-body-secondary"> His smile.</span></h2>
+            <p class="lead">Her laughter dances in the air, a symphony of joy sparked by the sight of him. A snapshot of
+                laughter, a testament to the unbreakable bond they share.</p>
+          </div>
+          <div class="col-md-5 order-md-1" style='background-image: url("https://www.craydenweddingphotography.co.uk/wp-content/uploads/2023/01/sean-laura-social-media-files-789-of-1067.jpg");width: 500px; height:500px; background-size: cover;'>
+            <!-- <img src="im.jpg" alt="" loading="lazy"> -->
+          </div>
+        </div></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
